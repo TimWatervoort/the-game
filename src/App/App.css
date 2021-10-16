@@ -1,0 +1,21 @@
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  background-color: #4D4D4D !important;
+  color: white !important;
+}
+
+.game-header {
+  font-family: 'Righteous', cursive;
+  font-size: 5em;
+}
+
+.game-highlight {
+  font-family: 'Ephesis', cursive;
+}
+
+.game-text {
+  font-family: 'Georama', sans-serif;
+}
