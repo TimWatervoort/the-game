@@ -1,21 +1,32 @@
 import React, { useState } from 'react';
 import './App.css';
 import DeckList from '../DeckList';
+import TableList from '../TableList/';
 
 const views = {
   DECKS: 'DECKS',
   TABLES: 'TABLES',
 }
 
+const greetings = [
+  'Please enjoy',
+  'Let\'s play',
+  'It\'s time for',
+  'Prepare yourself for',
+  'It\'s a lovely night for',
+];
+
 function App() {
   const [ view, setView ] = useState(views.DECKS);
+
+  const greeting = greetings[Math.floor(Math.random() * greetings.length )];
 
   return (
     <div className='App game-text'>
       <div className='container text-center pt-5'>
         <div className='row'>
           <div className='col'>
-            <h2 className='game-highlight'>Please enjoy</h2>
+            <h2 className='game-highlight'>{ greeting }</h2>
             <h1 className='game-header'>A GAME.</h1>
           </div>
         </div>
@@ -30,6 +41,7 @@ function App() {
         </div>
         
         { view === views.DECKS && <DeckList /> }
+        { view === views.TABLES && <TableList /> }
 
       </div>
     </div>
