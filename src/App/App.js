@@ -2,19 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import DeckList from '../DeckList';
 import TableList from '../TableList/';
-
-const views = {
-  DECKS: 'DECKS',
-  TABLES: 'TABLES',
-}
-
-const greetings = [
-  'Please enjoy',
-  'Let\'s play',
-  'It\'s time for',
-  'Prepare yourself for',
-  'It\'s a lovely night for',
-];
+import { views, greetings } from '../constants';
 
 function App() {
   const [ view, setView ] = useState(views.DECKS);
