@@ -2,4 +2,5 @@
   border-radius: 15px !important;
   width: 10rem !important;
   height: 10rem !important;
+  cursor: pointer;
 }
