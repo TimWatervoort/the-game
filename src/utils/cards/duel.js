@@ -31,6 +31,30 @@ const duel = [
     title: 'Dare',
     content: `You will kiss a player of the group's choice or a volunteer (not your significant other, don't be basic).
     Remember: either party can opt out by taking a punishment or going out.`
+  },
+  {
+    title: 'Compliments',
+    content: 'You and a player of the group\'s choice will have a compliment battle. The first person to repeat a compliment or take too long loses.'
+  },
+  {
+    title: 'Compliments',
+    content: 'You and a random player will have a compliment battle. The first person to repeat a compliment or take too long loses.'
+  },
+  {
+    title: 'Spartan',
+    content: 'You and a player of the group\'s choice will compete in a physical challenge of the group\'s choice.'
+  },
+  {
+    title: 'Spartan',
+    content: 'You and a random player will compete in a physical challenge of your choice.'
+  },
+  {
+    title: 'Actor',
+    content: 'You and a random player will act out whatever the group has whispered in your ears. You must guess your opponent\'s word or get a punishment.'
+  },
+  {
+    title: 'Actor',
+    content: 'You and a player of the group\'s choice will act out a word of your own choice. You must guess your opponent\'s word or get a punishment.'
   }
 ];
 

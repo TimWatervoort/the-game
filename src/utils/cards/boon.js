@@ -13,7 +13,7 @@ const boon = [
   },
   {
     title: 'The Swap',
-    content: 'Trade points with someone. Everyone is required to tell you their points honestly.'
+    content: 'Trade points with someone (if you want to). Everyone is required to tell you their points honestly.'
   },
   {
     title: 'The Inquisitor',
@@ -27,6 +27,18 @@ const boon = [
   {
     title: 'Double Up',
     content: 'Your next turn will have its rewards doubled.'
+  },
+  {
+    title: 'The Punisher',
+    content: 'Give someone a punishment.'
+  },
+  {
+    title: 'The President',
+    content: 'You have veto power over any group\'s choice until someone else draws this card.'
+  },
+  {
+    title: 'The VIP',
+    content: 'You can make someone get you a drink or snack. If they do not, they will be punished. Minorly.'
   }
 ];
 
