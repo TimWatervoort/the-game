@@ -29,7 +29,7 @@ const distortion = [
   },
   {
     title: 'Misery Loves Company',
-    content: 'Every time a player draws a curse card, the curse applies to them for a turn as well.'
+    content: 'Every time a player draws a curse card, the curse applies to them for a round as well.'
   },
   {
     title: 'Public Humiliation',
@@ -38,6 +38,15 @@ const distortion = [
   {
     title: 'Move it Along',
     content: 'Every turn a player is in, they must roll a D20. If they get a 1, they get a major punishment. If they get a 20, they get a major reward.'
+  },
+  {
+    title: 'Creativity',
+    content: 'The group decides on a new rule.'
+  },
+  {
+    title: 'Liar',
+    content: `Players can lie about what they receive they draw a curse card. If anyone successfully calls them out on it, they get a major punishment.
+    If anyone erroneously calls them out, they receive a minor punishment.`
   }
 ];
 
