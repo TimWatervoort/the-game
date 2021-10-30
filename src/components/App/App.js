@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 import DeckList from '../DeckList';
-import TableList from '../TableList/';
-import { views, greetings } from '../constants';
+import TableList from '../TableList';
+import { views, greetings } from '../../utils/constants';
 
 function App() {
   const [ view, setView ] = useState(views.DECKS);

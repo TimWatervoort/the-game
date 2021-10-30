@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import DeckButton from '../DeckButton';
 import CardModal from '../CardModal';
-import { decks } from '../decks';
+import { decks } from '../../utils/decks';
 
 const DeckList = () => {
   const [showModal, setShowModal] = useState(false);
