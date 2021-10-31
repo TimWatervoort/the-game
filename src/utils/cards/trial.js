@@ -87,6 +87,14 @@ const trial = [
   {
     title: 'Challenge',
     content: `Leave the room. The group will then add one object to the center of the room. Come back in. Tell us what it is.`
+  },
+  {
+    title: 'Share With the Class',
+    content: 'What is something you want to do that you need other people for?'
+  },
+  {
+    title: 'Share With the Class',
+    content: 'Pick two people that you\'d like to start a band with.'
   }
 ];
 
