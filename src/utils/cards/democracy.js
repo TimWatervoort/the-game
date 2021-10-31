@@ -100,6 +100,10 @@ const democracy = [
     title: 'Voting',
     content: 'Which player would have sex in the most exotic location? The winner gets a punishment for public exposure.'
   },
+  {
+    title: 'Voting',
+    content: 'Which player is the nicest person? The winner gets a reward for wholesomeness.'
+  }
 ];
 
 export default democracy;
