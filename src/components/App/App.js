@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import DeckList from '../DeckList';
 import TableList from '../TableList';
+import InstructionsView from '../InstructionsView/';
 import { views, greetings } from '../../utils/constants';
 
 function App() {
@@ -20,16 +21,20 @@ function App() {
         </div>
 
         <div className='row my-3'>
-          <div className='col-6'>
+          <div className='col-4'>
             <button onClick={() => setView(views.DECKS)} className='btn btn-danger game-button game-text'>Decks</button>
           </div>
-          <div className='col-6'>
+          <div className='col-4'>
             <button onClick={() => setView(views.TABLES)} className='btn btn-danger game-button game-text'>Tables</button>
+          </div>
+          <div className='col-4'>
+            <button onClick={() => setView(views.INSTRUCTIONS)} className='btn btn-danger game-button game-text'>Instructions</button>
           </div>
         </div>
         
         { view === views.DECKS && <DeckList /> }
         { view === views.TABLES && <TableList /> }
+        { view === views.INSTRUCTIONS && <InstructionsView />}
 
       </div>
     </div>

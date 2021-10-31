@@ -1,6 +1,7 @@
 export const views = {
   DECKS: 'DECKS',
   TABLES: 'TABLES',
+  INSTRUCTIONS: 'INSTRUCTIONS',
 }
 
 export const greetings = [
