@@ -24,3 +24,8 @@ html, body {
   width: 6em !important;
   font-size: 1.5em !important;
 }
+
+.game-subheader {
+  font-family: 'Righteous', cursive;
+  font-size: 3em;
+}

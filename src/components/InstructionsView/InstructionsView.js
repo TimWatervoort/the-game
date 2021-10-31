@@ -5,9 +5,9 @@ const InstructionsView = () => {
     <div>
       <div className='row'>
         <div className='col'>
-          <div className='card'>
+          <div className='card mt-3'>
             <div className='card-body game-text text-dark'>
-              <h1 className='game-header'>Instructions</h1>
+              <h3 className='game-subheader'>Instructions</h3>
               <hr />
               <p>Get a token</p>
               <p>If you are in, the token is upright. If you are out, the token is on its side.</p>

@@ -20,14 +20,16 @@ function App() {
           </div>
         </div>
 
-        <div className='row my-3'>
-          <div className='col-4'>
+        <div className='row my-3 text-center mx-auto'>
+          <div className='col-6'>
             <button onClick={() => setView(views.DECKS)} className='btn btn-danger game-button game-text'>Decks</button>
           </div>
-          <div className='col-4'>
+          <div className='col-6'>
             <button onClick={() => setView(views.TABLES)} className='btn btn-danger game-button game-text'>Tables</button>
           </div>
-          <div className='col-4'>
+        </div>
+        <div className='row mt-2'>
+          <div className='col'>
             <button onClick={() => setView(views.INSTRUCTIONS)} className='btn btn-danger game-button game-text'>Instructions</button>
           </div>
         </div>
